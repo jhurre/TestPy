@@ -6,4 +6,4 @@ def hello():
     html = "The current time is: " + str(time.asctime()) + "\n"
     return html
 
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=8080, debug=True)
